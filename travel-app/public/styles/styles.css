@@ -1,0 +1,408 @@
+/* Common Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+body {
+  font-family: "Roboto", "Roboto Slab", sans-serif;
+  padding: 0 5%;
+}
+.linear-color {
+  background-image: linear-gradient(to right, #000, #133357);
+}
+
+/* Header Banner Section */
+.header-banner {
+  padding: 0.75rem;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header-text {
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+.offer-text {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+/* Navbar Section */
+.navbar-menu {
+  display: flex;
+  padding: 1rem;
+  justify-content: flex-end;
+}
+.navbar-menu ul {
+  display: inline-flex;
+  margin-right: 10%;
+}
+.navbar-menu ul li {
+  display: flex;
+  margin: 0 2rem;
+  font-size: normal;
+}
+.menu-item {
+  text-decoration: none;
+  color: rgb(19, 17, 17);
+}
+
+/* Welcome Section */
+.welcome-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.welcome-image {
+  text-align: right;
+}
+.welcome-text {
+  padding: 0 3rem;
+}
+.welcome-text h1 {
+  font-size: 2.5em;
+  line-height: 1;
+}
+.welcome-text p {
+  margin: 1em 0;
+  line-height: 1.5;
+}
+.welcome-image img {
+  max-width: 65%;
+  height: auto;
+  margin-right: 1rem;
+}
+.button-style {
+  padding: 0.5em 1.5em;
+  color: #fbfcfc;
+  font-weight: normal;
+  border: 0;
+  border-radius: 5px;
+  margin: 1rem 0;
+  font-family: "Roboto";
+}
+
+/* Weather section */
+.weather-container {
+  margin: 2% 5%;
+}
+.weather-heading {
+  padding: 1rem;
+  color: #fff;
+  background-color: #123052;
+}
+.weather-icons {
+  padding: 1rem;
+  text-align: center;
+  color: #fbfcfc;
+  width: 25%;
+  height: auto;
+}
+.weather-icons img {
+  max-width: 50%;
+  height: auto;
+  margin: 0.75rem;
+}
+.weather-city {
+  font-size: 1rem;
+}
+.weather-temp {
+  font-size: 3.5rem;
+}
+.weather-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.first {
+  background-color: #0d7e88;
+}
+.second {
+  background-color: #d09378;
+}
+.third {
+  background-color: #405b5d;
+}
+.fourth {
+  background-color: #74a748;
+}
+
+/* Destinations Section */
+.destinations-container {
+  margin: 5% 5%;
+}
+.destinations-heading {
+  color: #123052;
+}
+.destinations-body {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  margin: 2rem 0;
+}
+.destinations-body::-webkit-scrollbar {
+  width: 10px;
+}
+.destinations-body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 20px;
+}
+.destinations-body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  border-radius: 20px;
+  border: 0;
+}
+.destinations-cards {
+  margin-right: 1rem;
+  width: 200px;
+}
+.destinations-cards img {
+  width: 175px;
+  height: 175px;
+  border-radius: 8px 8px 8px 0;
+  object-fit: cover;
+}
+.destinations-cards p {
+  margin-top: 0.5rem;
+  color: #7d7d7d;
+  font-size: small;
+}
+
+/* Plan a Trip section */
+.hero-banner {
+  position: relative;
+  color: #fbfcfc;
+}
+.hero-banner img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.hero-text {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+}
+.hero-text p:first-of-type {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.25rem;
+}
+.hero-text p:last-of-type {
+  font-size: 1.5rem;
+  letter-spacing: 0.25rem;
+}
+
+/* Form Section */
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.form-body {
+  text-align: left;
+}
+.form-container > div > h1 {
+  color: #133256;
+  font-family: "Robot Slab";
+}
+.form-container div {
+  margin: 2rem 0;
+}
+.form-labels {
+  margin-top: 2rem;
+  color: gray;
+  font-size: small;
+}
+.form-container input {
+  width: 100%;
+  height: 2.5rem;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.error-display {
+  color: red;
+  margin: 0.5rem 0;
+  font-size: small;
+}
+.success-submit {
+  background-color: rgb(81, 233, 119);
+  font-size: small;
+  padding: 0.5rem 1rem;
+  font: "Roboto";
+  border-radius: 5px;
+}
+
+/* Footer Section */
+.footer-container {
+  padding: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: #fbfcfc;
+}
+.footer-tripzone,
+.footer-mainoffice,
+.footer-suboffice,
+.footer-disclaimer {
+  line-height: 1.25;
+  font-family: "Roboto";
+  flex: 1;
+}
+.footer-disclaimer {
+  flex: 2;
+}
+.footer-container h3,
+h5 {
+  margin: 0.5rem;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+.footer-container h3 {
+  margin-bottom: 1rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  /* Common Section */
+  [class*="col-"] {
+    width: 100%;
+  }
+  body {
+    padding: 0;
+  }
+
+  /* Navbar Section */
+  .navbar-menu {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+  .navbar-menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .navbar-menu ul li {
+    font-size: small;
+    margin: 0 1rem;
+  }
+
+  /* Welcome OfferSection */
+  .welcome-image,
+  .welcome-text {
+    text-align: center;
+  }
+  .welcome-text h1 {
+    font-size: 1.25em;
+    line-height: 1;
+    margin-top: 1.5em;
+  }
+
+  /* Weather Section */
+  .weather-container {
+    margin: 5% 3%;
+  }
+  .weather-heading {
+    text-align: center;
+  }
+  .weather-body {
+    justify-content: space-around;
+  }
+  .weather-icons {
+    width: 50%;
+  }
+
+  /* Destinations Section */
+  .destinations-container {
+    margin: 5% 3%;
+  }
+  .destinations-cards img {
+    width: 100px;
+    height: 100px;
+  }
+  .destinations-body::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Promo Hero Image Section */
+  .hero-text p:first-of-type {
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+  }
+  .hero-text p:last-of-type {
+    font-size: 0.75rem;
+    letter-spacing: 0.1rem;
+  }
+
+  /* Get a Quote form section */
+  .form-container input {
+    width: 80%;
+  }
+  .form-container > div > h1 {
+    text-align: center;
+    font-weight: bold;
+  }
+  .success-submit {
+    font-size: smaller;
+    padding: 0.5rem 0.5rem;
+  }
+
+  /* Footer Section */
+  .footer-container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .footer-container h3 {
+    margin-top: 2rem;
+  }
+}
