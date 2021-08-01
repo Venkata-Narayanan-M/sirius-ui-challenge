@@ -3,9 +3,9 @@
 - No relation between content and Sirius
 - Developed with React with pure HTML and CSS without any UI Libraries/Frameworks
 - No CSS pre-processors used
-- a travel app, with
-- Welcome Offer
-- Weather Info (major cities)
-- Destinations Offered
-- Booking Form
-- Office Details
+- A Travel Booking App
+  - Welcome Offer
+  - Weather Info (major cities)
+  - Destinations Offered
+  - Booking Form
+  - Office Details
